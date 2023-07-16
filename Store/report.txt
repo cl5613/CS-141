@@ -1,0 +1,25 @@
+file name: report.txt
+author: Chen Lin
+
+1. The purpose of the pivot is to divide a set of list by two, sort two of the lists and reorganized then into
+one sorted list.
+We don't really need to choose the middle item as the pivot.
+The algorithm would have behaved differently if I had selected the first item as the pivot each time.
+
+
+2. quick_select([ 2,64,34,62,9,12 ])
+quick_select([ 1,23,41,25,38,100 ])
+quick_select([ 5,21,32,3,6,0 ])
+
+
+3. The elapsed time performance of my quick select program when it processes a large data
+set for 1M is 3.4817782719999997 seconds.
+
+The elapsed time performance of my sorting median program when it processes the same large data
+set for 1M is 5.381917752 seconds.
+
+The elapsed time performance of my quick select program when it processes a large data
+set for 1M is 3.6007519670000008 seconds for the second time.
+
+The elapsed time performance of my sorting median program when it processes the same large data
+set for 1M is 5.372060694 seconds for the second time.
